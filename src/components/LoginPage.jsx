@@ -10,7 +10,7 @@ const LoginPage = () => {
     const username = e.target.username.value;
     const password = e.target.password.value;
 
-    if (username === 'dummy' && password === 'password') {
+    if (username === 'divya' && password === '654') {
       localStorage.setItem('authenticated', 'true');
       navigate('/dashboard');
     } else {
